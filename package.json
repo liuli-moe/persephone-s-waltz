@@ -5,7 +5,7 @@
   "scripts": {
     "docs-dev": "docusaurus start",
     "docs-build": "docusaurus build",
-    "docs-deploy": "pnpm docs-build && liuli-cli deploy",
+    "docs-deploy": "gh-pages -d ./build --dotfiles",
     "build": "mdbook build -i books/readme.md"
   },
   "deploy": {
@@ -28,10 +28,9 @@
     "@docusaurus/theme-common": "^2.2.0",
     "@docusaurus/types": "^2.2.0",
     "@easyops-cn/docusaurus-search-local": "^0.32.0",
+    "@liuli-util/mdbook": "^0.2.4",
     "@liuli-util/async": "^3.5.1",
-    "@liuli-util/cli": "^3.21.0",
     "@liuli-util/markdown-util": "^0.2.2",
-    "@liuli-util/mdbook": "^0.2.3",
     "@node-rs/jieba-win32-x64-msvc": "^1.6.2",
     "@tsconfig/docusaurus": "^1.0.5",
     "@types/fs-extra": "^9.0.13",
@@ -41,6 +40,7 @@
     "esbuild-loader": "^2.20.0",
     "fast-glob": "^3.2.12",
     "fs-extra": "^10.1.0",
+    "gh-pages": "^4.0.0",
     "gray-matter": "^4.0.3",
     "jszip": "^3.10.1",
     "remark-html": "^15.0.1",
@@ -62,11 +62,5 @@
   },
   "engines": {
     "node": ">=16.14"
-  },
-  "jest": {
-    "preset": "ts-jest",
-    "testMatch": [
-      "<rootDir>/src/**/__tests__/*.test.ts"
-    ]
   }
 }

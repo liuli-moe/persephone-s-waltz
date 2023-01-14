@@ -7,9 +7,9 @@ export function Giscus() {
     let s = document.createElement('script')
     s.src = 'https://giscus.app/client.js'
     s.setAttribute('data-repo', 'liuli-moe/persephone-s-waltz')
-    s.setAttribute('data-repo-id', 'R_kgDOG4H10w')
-    s.setAttribute('data-category', 'General')
-    s.setAttribute('data-category-id', 'DIC_kwDOG4H1084CQhBn')
+    s.setAttribute('data-repo-id', 'R_kgDOIxmT8Q')
+    s.setAttribute('data-category', 'Announcements')
+    s.setAttribute('data-category-id', 'DIC_kwDOIxmT8c4CTlsO')
     s.setAttribute('data-mapping', 'pathname')
     s.setAttribute('data-reactions-enabled', '1')
     s.setAttribute('data-emit-metadata', '0')
