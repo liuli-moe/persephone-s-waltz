@@ -17,7 +17,7 @@ function HomepageHeader() {
           <h1 className="hero__title">{siteConfig.title}</h1>
           <p style={{ fontSize: 16 }}>{siteConfig.tagline}</p>
           <div className={styles.buttons}>
-            <Link className="button button--secondary button--lg" to="/books/你在开玩笑吧？">
+            <Link className="button button--secondary button--lg" to="/books/ch01">
               阅读
             </Link>
           </div>

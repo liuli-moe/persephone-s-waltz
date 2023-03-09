@@ -107,7 +107,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: '你在开玩笑吧？',
+            docId: 'ch01',
             position: 'left',
             label: '阅读',
           },
