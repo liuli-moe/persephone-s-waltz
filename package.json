@@ -6,11 +6,7 @@
     "docs-dev": "docusaurus start",
     "docs-build": "docusaurus build",
     "docs-deploy": "gh-pages -d ./build --dotfiles",
-    "build": "mdbook build -i books/readme.md"
-  },
-  "deploy": {
-    "type": "gh-pages",
-    "dist": "build"
+    "build": "mark-magic"
   },
   "dependencies": {
     "@giscus/react": "^2.2.0",
@@ -22,6 +18,7 @@
     "remark": "^14.0.2"
   },
   "devDependencies": {
+    "@ffflorian/jszip-cli": "^3.4.1",
     "@docusaurus/core": "2.2.0",
     "@docusaurus/module-type-aliases": "2.2.0",
     "@docusaurus/preset-classic": "2.2.0",
