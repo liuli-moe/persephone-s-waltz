@@ -1,4 +1,4 @@
-# yaml-language-server: $schema=./node_modules/@mark-magic/cli/src/config.schema.json
+# yaml-language-server: $schema=./node_modules/@mark-magic/cli/dist/config.schema.json
 generate:
   - name: epub
     input:
@@ -28,6 +28,7 @@ generate:
         public: ./static/
         name: 珀耳塞福涅的华尔兹
         repo: https://github.com/liuli-moe/persephone-s-waltz.git
+        logo: ./static/logo.jpeg
         theme:
           dark: true
         giscus:
