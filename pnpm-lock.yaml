@@ -9,17 +9,17 @@ devDependencies:
     specifier: ^3.4.1
     version: 3.4.1
   '@mark-magic/cli':
-    specifier: link:~/code/web/mark-magic/packages/cli
-    version: link:../mark-magic/packages/cli
+    specifier: link:C:/Users/rxliuli/code/web/mark-magic/packages/cli
+    version: link:../../web/mark-magic/packages/cli
   '@mark-magic/plugin-docs':
-    specifier: link:~/code/web/mark-magic/packages/plugin-docs
-    version: link:../mark-magic/packages/plugin-docs
+    specifier: link:C:/Users/rxliuli/code/web/mark-magic/packages/plugin-docs
+    version: link:../../web/mark-magic/packages/plugin-docs
   '@mark-magic/plugin-epub':
-    specifier: link:~/code/web/mark-magic/packages/plugin-epub
-    version: link:../mark-magic/packages/plugin-epub
+    specifier: link:C:/Users/rxliuli/code/web/mark-magic/packages/plugin-epub
+    version: link:../../web/mark-magic/packages/plugin-epub
   '@mark-magic/plugin-local':
-    specifier: link:~/code/web/mark-magic/packages/plugin-local
-    version: link:../mark-magic/packages/plugin-local
+    specifier: link:C:/Users/rxliuli/code/web/mark-magic/packages/plugin-local
+    version: link:../../web/mark-magic/packages/plugin-local
   gh-pages:
     specifier: ^5.0.0
     version: 5.0.0
@@ -445,7 +445,7 @@ packages:
     dependencies:
       universalify: 2.0.0
     optionalDependencies:
-      graceful-fs: 4.2.10
+      graceful-fs: 4.2.11
     dev: true
 
   /jszip@3.10.1:
