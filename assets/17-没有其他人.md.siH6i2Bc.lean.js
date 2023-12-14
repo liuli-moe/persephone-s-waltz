@@ -1,1 +1,0 @@
-import{_ as p,o as r,c as t,R as o}from"./chunks/framework.S-lNut8w.js";const m=JSON.parse('{"title":"没有其他人","description":"","frontmatter":{},"headers":[],"relativePath":"17-没有其他人.md","filePath":"17-没有其他人.md"}'),s={name:"17-没有其他人.md"},n=o("",145),g=[n];function e(a,_,h,c,i,d){return r(),t("div",null,g)}const f=p(s,[["render",e]]);export{m as __pageData,f as default};
