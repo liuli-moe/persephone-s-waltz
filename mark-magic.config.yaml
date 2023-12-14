@@ -24,13 +24,13 @@ generate:
     output:
       name: '@mark-magic/plugin-docs'
       config:
+        name: 珀耳塞福涅的华尔兹
         path: ./dist/docs/
         public: ./static/
-        name: 珀耳塞福涅的华尔兹
-        repo: https://github.com/liuli-moe/persephone-s-waltz.git
-        logo: ./static/logo.jpeg
-        theme:
-          dark: true
+        logo: /logo.jpeg
+        nav:
+          - text: GitHub
+            link: https://github.com/liuli-moe/persephone-s-waltz.git
         giscus:
           repo: liuli-moe/persephone-s-waltz
           repoId: R_kgDOIxmT8Q
