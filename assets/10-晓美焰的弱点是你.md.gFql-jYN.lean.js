@@ -1,1 +1,0 @@
-import{_ as p,o as t,c as r,R as o}from"./chunks/framework.ZYHPqdDH.js";const m=JSON.parse('{"title":"晓美焰的弱点是你","description":"","frontmatter":{},"headers":[],"relativePath":"10-晓美焰的弱点是你.md","filePath":"10-晓美焰的弱点是你.md"}'),s={name:"10-晓美焰的弱点是你.md"},n=o("",139),g=[n];function e(_,a,c,h,i,d){return t(),r("div",null,g)}const f=p(s,[["render",e]]);export{m as __pageData,f as default};

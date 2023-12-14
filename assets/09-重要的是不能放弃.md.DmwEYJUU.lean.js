@@ -1,0 +1,1 @@
+import{_ as p,o as t,c as r,R as o}from"./chunks/framework.S-lNut8w.js";const m=JSON.parse('{"title":"重要的是不能放弃","description":"","frontmatter":{},"headers":[],"relativePath":"09-重要的是不能放弃.md","filePath":"09-重要的是不能放弃.md"}'),s={name:"09-重要的是不能放弃.md"},n=o("",159),g=[n];function e(_,a,c,i,h,d){return t(),r("div",null,g)}const f=p(s,[["render",e]]);export{m as __pageData,f as default};
