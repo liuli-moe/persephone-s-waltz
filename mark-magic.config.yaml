@@ -16,7 +16,7 @@ generate:
           publisher: rxliuli
           language: zh-CN
           cover: ./books/assets/cover.jpeg
-  - name: web
+  - name: docs
     input:
       name: '@mark-magic/plugin-local'
       config:
