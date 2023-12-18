@@ -1,5 +1,4 @@
-# yaml-language-server: $schema=./node_modules/@mark-magic/cli/dist/config.schema.json
-generate:
+tasks:
   - name: epub
     input:
       name: '@mark-magic/plugin-local'
